@@ -1,1 +1,1 @@
-# SQT-master
+# SQT
