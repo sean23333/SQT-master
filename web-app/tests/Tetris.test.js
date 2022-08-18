@@ -47,7 +47,10 @@ describe("Hold", function () {
     );
 
     it(
-        `### Change this to your test description ###`,
+        `The position of the tetromino need be the same:
+         when the gamer use the function hold;
+         the block will be saved and move the the next_tetromino to the current position;
+         restart the game.`,
         function () {
             const newGame = Tetris.new_game();
             const next_tetromino = R.clone(newGame.next_tetromino);
