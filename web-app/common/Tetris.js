@@ -647,3 +647,4 @@ Tetris.hold = function (game) {
     };
 }
 export default Object.freeze(Tetris);
+
